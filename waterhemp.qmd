@@ -1,0 +1,21 @@
+---
+title: "waterhemp"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+library(rvest)
+```
+
+```{r}
+url <- "https://www.agrireseau.net/documents/109960/malherbologie-bulletin-d_information-no-6-bilan-de-l_amarante-tuberculee-au-quebec-2017-2022?a=1&r=amarante+tubercul%C3%A9e"
+```
+
+
+
+```{r}
+html <- read_html(url)
+```
+
